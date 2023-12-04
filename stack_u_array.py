@@ -42,4 +42,4 @@ class stack:
     def stsize(self): # function to give the size of stack at current time
         stack_size = self.top + 1
         return stack_size
-    
+
