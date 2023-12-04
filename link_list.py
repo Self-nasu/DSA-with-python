@@ -21,7 +21,7 @@ class linklist:
     # insert at the end
     def insert_at_tail(self,data):
         new_node = node(data)
-        if not self.head
+        if not self.head:
             self.head = new_node
             self.tail = new_node
         else:
@@ -65,5 +65,4 @@ Mylist.insert_at_tail(2)
 Mylist.insert_at_tail(3)        
 Mylist.insert_at_tail(4)
 
-Mylist.display()        
-        
+Mylist.display()
