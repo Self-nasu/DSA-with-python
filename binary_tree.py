@@ -32,17 +32,6 @@ class binarytree:
             self.preorder(node.left)
             self.preorder(node.right)
             
-    def inorder(self,node):
-        if node:
-            self.inorder(node.left)
-            print(node.data,end="-->")
-            self.inorder(node.right)
-        
-    def postorder(self,node):
-        if node:
-            self.postorder(node.left)
-            self.postorder(node.right)
-            print(node.data,end="-->")
                 
 Mytree = binarytree()
 
@@ -51,8 +40,4 @@ for element in elements:
     Mytree.insert_in_tree(element)
 
 Mytree.preorder(Mytree.root)
-print("\n")
-Mytree.inorder(Mytree.root)
-print("\n")
-Mytree.postorder(Mytree.root)
 

@@ -7,7 +7,7 @@ struct Student {
     char name[50];
     int marks[6];
     float percentage;
-};
+}
 
 int main() {
     int numStudents;
